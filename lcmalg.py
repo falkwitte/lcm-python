@@ -1,8 +1,8 @@
 # lcm algorithm written in python3 
 
 def gcd(a, b):
-    while(b != 0):
-        h  = a % b
+    while b != 0:
+        h = a % b
         a = b
         b = h
     return a
